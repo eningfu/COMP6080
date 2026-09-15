@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right {
+  margin: 50px;
+}
+
+.left {
+  text-align: center;
+  border-right: solid 1px;
+  padding-right: 50px;
+  margin-right: 0px; /* this gets rid of that extra empty space from earlier..*/
+}
+
+.oceans {
+  color: orangered;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
