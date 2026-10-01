@@ -6,13 +6,14 @@ const scoreDisplay = document.getElementById("score");
 const darkModeButton = document.getElementById("dark-mode-btn");
 const resetButton = document.getElementById("reset-btn");
 
-// display any saved values
+// TODO 3: display any saved values
 
 
-// update score
+// TODO 1: update score and change image after 10/20 clicks
 
 
-// reset score to 0 
+// TODO 2: reset score to 0 
 
 
-// toggle dark mode
+// TODO 4: toggle dark mode
+

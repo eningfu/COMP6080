@@ -19,13 +19,14 @@
 3. Add JavaScript so:
 - the score updates everytime the button is clicked
 - the image changes after 10 click and 20 clicks
-- after 50 clicks, a message appears below the cookie
+- after 50 clicks, the click button changes appearance
 - clicking reset game resets the game
-> using textContent, .src, .querySelector, .appendChild, .classList.add
+> using textContent = '', .src = '', .querySelector(''), .classList.add('')
 
-4. Save the score 
+4. Save the score with localstorage
 > What type of value does localStorage.getItem('score') return?, localstorage.setItem('score', score), localstorage.getItem('score')
-5. Add a dark mode feature
+
+5. Add a dark mode feature 
 
 <link
   href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"

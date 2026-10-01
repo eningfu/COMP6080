@@ -43,8 +43,10 @@ button:focus {
   font-weight: bold;
 }
 
-.achievement {
+/* for the new appearance */
+.skin {
   padding: 10px;
   background-color: yellow;
-  font-weight: bold;
+  border-style: dotted;
+  font-family: cursive;
 }
