@@ -9,11 +9,20 @@ body {
   color: black;
 }
 
+body.dark {
+  background-color: navy;
+}
+
 .game {
   position: relative;
   text-align: center;
   background-color: white;
   width: 400px;
+}
+
+.game.dark {
+  background-color: black;
+  color: white;
 }
 
 h1 {
