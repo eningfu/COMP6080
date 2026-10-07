@@ -1,6 +1,6 @@
 # COMP6080 Tutorial 3
 
-NEW: More DOM, localstorage
+More DOM, localstorage
 
 ## 1. Quiz 1 prep: Clicker Game - HTML, CSS, JS
 1. Fix the HTML code
@@ -30,7 +30,7 @@ NEW: More DOM, localstorage
 > .classList.add('skin')
 - clicking reset game resets the game
 - create a function that creates the list of achievements and strikethrough the achievement once achieved
-> replaceChildren(), forEach((achievement) => {}), document.createElement("p")
+> innerHTML/replaceChildren(), forEach((achievement) => {}), document.createElement("p")
 
 4. Save the score with localstorage
 > What type of value does localStorage.getItem('score') return?, localstorage.setItem('score', score), localstorage.getItem('score')

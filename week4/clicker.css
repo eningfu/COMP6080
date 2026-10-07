@@ -1,5 +1,18 @@
 * {
+  box-sizing: border-box;
+  
+}
 
+.hi {
+  color: red
+}
+
+#hi {
+  color: blue;
+}
+
+.bye {
+  color: green;
 }
 
 body {
@@ -7,6 +20,11 @@ body {
   min-height: 100vh;
   background-color: lightblue;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Silkscreen', 'Courier New', Courier, monospace;
 }
 
 body.dark {
@@ -18,9 +36,11 @@ body.dark {
   text-align: center;
   background-color: white;
   width: 400px;
+  padding: 20px;
+  border: 5px dashed black;
 }
 
-.game.dark {
+body.dark .game{
   background-color: black;
   color: white;
 }
@@ -43,13 +63,28 @@ button {
   color: black;
 }
 
-button:focus {
-  outline: none;
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#reset-btn {
+  width: 50%;
+}
+
+.stars {
+  width: 100%;
 }
 
 .score {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  .game {
+    width: 200px
+  }
 }
 
 /* for the new appearance */
