@@ -9,13 +9,13 @@ Create a new Vite app in an exercise folder by running npm create vite@latest.
 2. select JavaScript as the variant
 3. You are free to choose your own project name.
 4. cd into that folder then type ls and you should see some files including package.json. 
-5. Open the file src/App.tsx in an editor. This is the file we are going to edit for this lab.
+5. Open the file src/App.jsx in an editor. This is the file we are going to edit for this lab.
 6. In your terminal window run npm run dev which will start up the development environment (essentailly a mini deployment that will automatically reload when you make changes to your code).
-7. Modify the App.tsx file to change the text Edit src/App.tsx and save to reload with the text Pa-ran-nah!.
+7. Modify the App.jsx file to change the text Edit src/App.jsx and save to reload with the text Pa-ran-nah!.
 8. Once you've done this, replace the current image with any other image you want
 
 ## 2. Styling (5 mins)
-1. While npm run dev is running, open the file src/App.tsx and src/App.css in an editor. These is the file we are going to edit for this lab.
+1. While npm run dev is running, open the file src/App.jsx and src/App.css in an editor. These is the file we are going to edit for this lab.
 2. Make your ReactTS app look identical to the page below.
 ![alt text](image.png)
 
