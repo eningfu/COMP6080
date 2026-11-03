@@ -75,3 +75,14 @@ You are free to choose your own project name.
 ## 5. Props and Components (15 mins)
 Create a component called ProfileCard that displays a person's name and degree.
 > props & destructuring props
+
+## 6. useState (10 mins)
+1. Create a component called Counter.
+2. Initialise the state variable count to be 0
+> const [current value, updater function] = useState(initial value);
+3. Add a button that increases the counter by 1 whenever it is clicked
+> onClick={() => setCount(count + 1)} vs onClick={handleIncrease}
+4. Add a button that decreases the counter by 1 whenever it is clicked.
+5. Add a button that resets the counter to 0 whenever it is clicked.
+6. Add a message that displays "Limit reached!" when the counter reaches 10.
+> { && }
