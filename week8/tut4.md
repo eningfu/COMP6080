@@ -2,7 +2,7 @@
 
 React, UI
 
-## 1. Creating an app (10 mins)
+## 1. Creating an app (5 mins)
 Create a new Vite app in an exercise folder by running npm create vite@latest.
 
 1. select React as the framework
@@ -14,13 +14,9 @@ Create a new Vite app in an exercise folder by running npm create vite@latest.
 7. Modify the App.tsx file to change the text Edit src/App.tsx and save to reload with the text Pa-ran-nah!.
 8. Once you've done this, replace the current image with any other image you want
 
-## 2. Styling (10 mins)
-1. select React as the framework
-2. select JavaScript as the variant
-3. You are free to choose your own project name.
-4. cd into that folder then type ls and you should see some files including package.json. 
-5. While npm run dev is running, open the file src/App.tsx and src/App.css in an editor. These is the file we are going to edit for this lab.
-6. Make your ReactTS app look identical to the page below.
+## 2. Styling (5 mins)
+1. While npm run dev is running, open the file src/App.tsx and src/App.css in an editor. These is the file we are going to edit for this lab.
+2. Make your ReactTS app look identical to the page below.
 ![alt text](image.png)
 
 ## 3. Clean up a React App - improve accessibility in the context of linting and material ui (15 mins)
@@ -76,3 +72,6 @@ Create a new Vite app in an `exercise` folder by running `npm create vite@latest
 
 You are free to choose your own project name.
 
+## 5. Props and Components (15 mins)
+Create a component called ProfileCard that displays a person's name and degree.
+> props & destructuring props
