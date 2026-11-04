@@ -14,7 +14,7 @@ Create a new Vite app in an exercise folder by running npm create vite@latest.
 7. Modify the App.jsx file to change the text Edit src/App.jsx and save to reload with the text Pa-ran-nah!.
 8. Once you've done this, replace the current image with any other image you want
 
-## 2. Styling (5 mins)
+## 2. Styling (10 mins)
 1. While npm run dev is running, open the file src/App.jsx and src/App.css in an editor. These is the file we are going to edit for this lab.
 2. Make your ReactTS app look identical to the page below.
 ![alt text](image.png)
@@ -68,7 +68,7 @@ npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 Create a new Vite app in an `exercise` folder by running `npm create vite@latest`.
 
 - select `React` as the framework
-- select `Typescript` as the variant
+- select `Javascript` as the variant
 
 You are free to choose your own project name.
 
@@ -76,7 +76,7 @@ You are free to choose your own project name.
 Create a component called ProfileCard that displays a person's name and degree.
 > props & destructuring props
 
-## 6. useState (10 mins)
+## 6. useState (15 mins)
 1. Create a component called Counter.
 2. Initialise the state variable count to be 0
 > const [current value, updater function] = useState(initial value);
@@ -85,4 +85,20 @@ Create a component called ProfileCard that displays a person's name and degree.
 4. Add a button that decreases the counter by 1 whenever it is clicked.
 5. Add a button that resets the counter to 0 whenever it is clicked.
 6. Add a message that displays "Limit reached!" when the counter reaches 10.
-> { && }
+> {condition && (elements)}
+
+1. Create a input box and submit button
+```  
+  <input 
+    id="name" 
+    value={name} 
+    onChange={(e) => setName(e.target.value)} 
+    placeholder="Enter name"
+  />
+
+  <button id="submit" onClick={handleConfirm}>submit</button>
+```
+2. Add a message that displays "Hi, {name}" when the submit button is clicked
+
+## 7. React Router DOM (10 min)
+Multiple pages and URLs
